@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class Teleport : MonoBehaviour
 {
-    public Teleport Goal;
-    private bool IsTeleporting = false;
+    public Teleport goal;
+    private bool isteleport = false;
 
     void OnTriggerEnter(Collider other)
     {
-        if (IsTeleporting)
+        if (isteleport)
         {
             return;
         }
 
-        Goal.IsTeleporting = true;
-        other.gameObject.transform.position = new Vector3(Goal.transform.position.x, other.gameObject.transform.position.y, Goal.transform.position.z);
+        goal.isteleport = true;
+        other.gameObject.transform.position = new Vector3(goal.transform.position.x, other.gameObject.transform.position.y, goal.transform.position.z);
     }
 
     void OnTriggerExit(Collider other)
     {
-        IsTeleporting = false;
+        isteleport = false;
     }
 }

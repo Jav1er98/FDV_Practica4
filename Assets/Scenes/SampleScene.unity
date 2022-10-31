@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4beddc2f21104ca4785b2f4e703507c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 1044621867}
+  goal: {fileID: 1044621867}
 --- !u!136 &154056788
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -685,8 +685,8 @@ MonoBehaviour:
   goal: {fileID: 1847995279}
   speed: 2
   accuracy: 0.01
-  AcceptanceRadius: 1
-  SlerpFactor: 0.5
+  radius: 1
+  factorslerp: 0.5
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4beddc2f21104ca4785b2f4e703507c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Goal: {fileID: 154056787}
+  goal: {fileID: 154056787}
 --- !u!136 &1044621868
 CapsuleCollider:
   m_ObjectHideFlags: 0
