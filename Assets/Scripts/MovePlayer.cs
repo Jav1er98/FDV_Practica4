@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float speed;
-    public float rotationSpeed;
+    public float speed = 1f;
+    public float rotationSpeed = 20f;
+    public float turbo = 10f;
+    public float normal = 6f;
 
     void Start()
     {
@@ -21,6 +23,15 @@ public class MovePlayer : MonoBehaviour
 
         transform.position = transform.position + movementDirection * speed * Time.deltaTime;
         if (movementDirection != Vector3.zero) transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movementDirection), rotationSpeed * Time.deltaTime);
+    }
+
+    public void setNormal()
+    {
+        speed = normal;
+    }
+    public void setTurbo()
+    {
+        speed = turbo;
     }
 }
 
