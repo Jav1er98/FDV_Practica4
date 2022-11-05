@@ -3,11 +3,11 @@
 
 1. Crear un script para mover al objeto jugador con los ejes Horizontal y Vertical.
 
-      ![gif ejercicio 1](/gifs/Ejercicio1.gif)
+      
       
 2. Implementar una UI que permita configurar con qué velocidad te moverás: turbo o normal. También debe mostar la cantidad de objetos recolectados y si chocas con alguno especial restar fuerza. 
 
-      ![gif ejercicio 2](/gifs/Ejercicio.gif)
+     
 
 3. Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otro objetos obstáculos se desplacen de su trayectoria. 
        
@@ -15,12 +15,12 @@
        
 4. Agrega un objeto que te teletransporte a otra zona de la escena.
 
-      ![gif ejercicio 4](/gifs/Ejercicio4.gif)
+      
       
 5. Agrega un personaje que se dirija hacia un objetivo estático en la escena.
 
-      ![gif ejercicio 5](/gifs/Ejercicio5.gif)
+
       
 6. Agrega un personaje que siga el movimiento del jugador. 
 
-      ![gif ejercicio 6](/gifs/Ejercicio6.gif)
+      
